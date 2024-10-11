@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="=UTF-8">
+        <meta name="viewport" content="witdh=device-width, intial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Mi primer login</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form id="loginForm" onsubmit="return chqueLogin(event)">
+                <imput type="email"name="email" id="email" placeholder="Ingresa tu email" required>
+                <imput type="password"name="password" id="password" placeholder="Ingresa tu contraseña" required>
+                <imput type="submit" value="Ingresar">
+            <p id="LoginMensaje"></p>
+        </main>
+        <footer><p>Todos los derechos son mios</footwer>
+        <script src="script.js"></script>
+    </body>
+</html>
